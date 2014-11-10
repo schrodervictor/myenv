@@ -1,0 +1,37 @@
+" vimrc
+"
+" @package myenv
+" @subpackage vim
+" @author thiagoalessio <thiagoalessio@me.com>
+
+"general settings
+source $HOME/.vim/general.vim
+source $HOME/.vim/vundle.vim
+
+"key mappings
+source $HOME/.vim/mappings.vim
+source $HOME/.vim/dvorak.vim
+
+"file browsing
+source $HOME/.vim/ctrlp.vim
+source $HOME/.vim/nerdtree.vim
+
+"code editing
+source $HOME/.vim/easymotion.vim
+source $HOME/.vim/folding.vim
+source $HOME/.vim/indentation.vim
+source $HOME/.vim/syntastic.vim
+source $HOME/.vim/tabular.vim
+source $HOME/.vim/tagbar.vim
+source $HOME/.vim/undotree.vim
+
+"vim interface
+source $HOME/.vim/interface.vim
+source $HOME/.vim/search.vim
+
+"visual/fancy stuff
+source $HOME/.vim/airline.vim
+source $HOME/.vim/colors.vim
+
+"debugging
+source $HOME/.vim/vdebug.vim

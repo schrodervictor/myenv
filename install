@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+
+ln -s .myenv/git/gitconfig $HOME/.gitconfig
+ln -s .myenv/zsh/zshrc $HOME/.zshrc
+ln -s .myenv/vim $HOME/.vim
+ln -s .myenv/vim/vimrc $HOME/.vimrc
+ln -s .myenv/tmux/tmux.conf $HOME/.tmux.conf
+
+vim -N -u ~/.myenv/vim/vundle.vim +BundleInstall +qall

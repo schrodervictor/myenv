@@ -1,0 +1,15 @@
+# zshrc
+#
+# @package myenv
+# @subpackage zsh
+# @author thiagoalessio <thiagoalessio@me.com>
+
+source $HOME/.myenv/zsh/aliases.zsh
+source $HOME/.myenv/zsh/colors.zsh
+source $HOME/.myenv/zsh/completion.zsh
+source $HOME/.myenv/zsh/environment.zsh
+source $HOME/.myenv/zsh/history.zsh
+source $HOME/.myenv/zsh/prompt.zsh
+source $HOME/.myenv/zsh/tmux.zsh
+source $HOME/.myenv/zsh/vcs.zsh
+source $HOME/.myenv/zsh/vi-mode.zsh

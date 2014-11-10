@@ -1,0 +1,42 @@
+# gitconfig
+#
+# @package myenv
+# @subpackage git
+# @author thiagoalessio <thiagoalessio@me.com>
+
+[user]
+    name = thiagoalessio
+    email = thiagoalessio@me.com
+
+[core]
+    editor = vim
+    autocrlf = input
+
+[diff]
+    tool = vimdiff
+
+[difftool]
+    prompt = false
+
+[color]
+    ui = auto
+
+[alias]
+    st = status
+    ci = commit
+    br = branch
+    co = checkout
+    df = diff
+    s = status -s
+
+[push]
+    default = simple
+
+[pull]
+    rebase = true
+
+[merge]
+    ff = false
+
+[rerere]
+    enabled = true
